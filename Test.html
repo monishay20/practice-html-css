@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .NavBar{
+            display: flex;
+            flex-direction: row;
+            height: 10vh;
+            width: 100vw;
+            background-color: black;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .component{
+            display: flex;
+            height: 80%;
+            width: 20%;
+            color: white;
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .component:hover{
+            cursor: pointer;
+            background-color: rgb(39, 39, 39);
+        }
+    </style>
+</head>
+<body>
+    <div class="NavBar">
+        <div class="component" >Home</div>
+        <div class="component">About</div>
+        <div class="component">Contact</div>
+        <div class="component">Blog</div>
+    </div>
+    
+</body>
+</html>
